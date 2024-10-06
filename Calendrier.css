@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EFEAE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteneur {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border: white solid 5px;
+    border-top-left-radius: 10%;
+    border-radius: 10%;
+}
+
+.en-tete {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bouton-fermer {
+    padding: 10px;
+    font-size: 9px;
+    cursor: pointer;
+    border: black solid 2px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.heure {
+    color: black;
+}
+
+.contenu {
+    padding: 20px;
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.groupe-boutons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.groupe-boutons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.groupe-boutons .actif {
+    background-color: #ccc;
+    border-radius: 50px;
+    
+}
+
+.calendrier {
+    margin-bottom: 20px;
+}
+
+.mois {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.selectionne {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.intervalle {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.options-dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.options-dates button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.disponibilite {
+    margin-bottom: 20px;
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.bouton-effacer {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bouton-sauvegarder {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
